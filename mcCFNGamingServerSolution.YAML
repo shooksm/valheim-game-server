@@ -1269,6 +1269,9 @@ Resources:
         IgnorePublicAcls: True
         RestrictPublicBuckets: True
       AccessControl: LogDeliveryWrite
+      OwnershipControls:
+        Rules:
+          - ObjectOwnership: ObjectWriter
 
   mcOriginAccessId:
     Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
