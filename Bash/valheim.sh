@@ -41,7 +41,7 @@ services:
       - NAME="MyAWSGamingServer"
       - WORLD="Dedicated"
       - PASSWORD='"$VHPW"'
-      - TZ=Europe/London
+      - TZ=America/New_York
       - PUBLIC=1
       - AUTO_UPDATE=1
       - AUTO_UPDATE_SCHEDULE="0 1 * * *"
